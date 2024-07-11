@@ -1,4 +1,6 @@
 import Banner from "./components/Banner";
+import BestSelling from "./components/BestSelling";
+import Dotgroup from "./components/Dotgroup";
 import Header from "./components/Header";
 import MegaMenu from "./components/MegaMenu";
 import MonsoonSale from "./components/MonsoonSale";
@@ -13,6 +15,8 @@ export default function App() {
       <Banner />
       <Trending />
       <MonsoonSale />
+      <BestSelling />
+      <Dotgroup />
     </div>
   );
 }
